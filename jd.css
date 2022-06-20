@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head-start {
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  background-image: linear-gradient(
+      45deg,
+      rgb(46, 46, 46) 0%,
+      rgb(46, 46, 46) 22%,
+      rgb(81, 81, 81) 22%,
+      rgb(81, 81, 81) 75%,
+      rgb(115, 115, 115) 75%,
+      rgb(115, 115, 115) 77%,
+      rgb(150, 150, 150) 77%,
+      rgb(150, 150, 150) 82%,
+      rgb(184, 184, 184) 82%,
+      rgb(184, 184, 184) 93%,
+      rgb(219, 219, 219) 93%,
+      rgb(219, 219, 219) 98%,
+      rgb(253, 253, 253) 98%,
+      rgb(253, 253, 253) 100%
+    ),
+    linear-gradient(
+      135deg,
+      rgb(46, 46, 46) 0%,
+      rgb(46, 46, 46) 22%,
+      rgb(81, 81, 81) 22%,
+      rgb(81, 81, 81) 75%,
+      rgb(115, 115, 115) 75%,
+      rgb(115, 115, 115) 77%,
+      rgb(150, 150, 150) 77%,
+      rgb(150, 150, 150) 82%,
+      rgb(184, 184, 184) 82%,
+      rgb(184, 184, 184) 93%,
+      rgb(219, 219, 219) 93%,
+      rgb(219, 219, 219) 98%,
+      rgb(253, 253, 253) 98%,
+      rgb(253, 253, 253) 100%
+    ),
+    linear-gradient(
+      22.5deg,
+      rgb(46, 46, 46) 0%,
+      rgb(46, 46, 46) 22%,
+      rgb(81, 81, 81) 22%,
+      rgb(81, 81, 81) 75%,
+      rgb(115, 115, 115) 75%,
+      rgb(115, 115, 115) 77%,
+      rgb(150, 150, 150) 77%,
+      rgb(150, 150, 150) 82%,
+      rgb(184, 184, 184) 82%,
+      rgb(184, 184, 184) 93%,
+      rgb(219, 219, 219) 93%,
+      rgb(219, 219, 219) 98%,
+      rgb(253, 253, 253) 98%,
+      rgb(253, 253, 253) 100%
+    ),
+    linear-gradient(
+      157.5deg,
+      rgb(46, 46, 46) 0%,
+      rgb(46, 46, 46) 22%,
+      rgb(81, 81, 81) 22%,
+      rgb(81, 81, 81) 75%,
+      rgb(115, 115, 115) 75%,
+      rgb(115, 115, 115) 77%,
+      rgb(150, 150, 150) 77%,
+      rgb(150, 150, 150) 82%,
+      rgb(184, 184, 184) 82%,
+      rgb(184, 184, 184) 93%,
+      rgb(219, 219, 219) 93%,
+      rgb(219, 219, 219) 98%,
+      rgb(253, 253, 253) 98%,
+      rgb(253, 253, 253) 100%
+    ),
+    linear-gradient(90deg, rgb(58, 58, 58), rgb(76, 76, 76));
+  
+}
+
+img {
+  height: 60px;
+  border-radius: 10px;
+  display: flex;
+  padding-left: 30px;
+
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+  background-image: linear-gradient(
+      45deg,
+      rgb(46, 46, 46) 0%,
+      rgb(46, 46, 46) 22%,
+      rgb(81, 81, 81) 22%,
+      rgb(81, 81, 81) 75%,
+      rgb(115, 115, 115) 75%,
+      rgb(115, 115, 115) 77%,
+      rgb(150, 150, 150) 77%,
+      rgb(150, 150, 150) 82%,
+      rgb(184, 184, 184) 82%,
+      rgb(184, 184, 184) 93%,
+      rgb(219, 219, 219) 93%,
+      rgb(219, 219, 219) 98%,
+      rgb(253, 253, 253) 98%,
+      rgb(253, 253, 253) 100%
+    ),
+    linear-gradient(
+      135deg,
+      rgb(46, 46, 46) 0%,
+      rgb(46, 46, 46) 22%,
+      rgb(81, 81, 81) 22%,
+      rgb(81, 81, 81) 75%,
+      rgb(115, 115, 115) 75%,
+      rgb(115, 115, 115) 77%,
+      rgb(150, 150, 150) 77%,
+      rgb(150, 150, 150) 82%,
+      rgb(184, 184, 184) 82%,
+      rgb(184, 184, 184) 93%,
+      rgb(219, 219, 219) 93%,
+      rgb(219, 219, 219) 98%,
+      rgb(253, 253, 253) 98%,
+      rgb(253, 253, 253) 100%
+    ),
+    linear-gradient(
+      22.5deg,
+      rgb(46, 46, 46) 0%,
+      rgb(46, 46, 46) 22%,
+      rgb(81, 81, 81) 22%,
+      rgb(81, 81, 81) 75%,
+      rgb(115, 115, 115) 75%,
+      rgb(115, 115, 115) 77%,
+      rgb(150, 150, 150) 77%,
+      rgb(150, 150, 150) 82%,
+      rgb(184, 184, 184) 82%,
+      rgb(184, 184, 184) 93%,
+      rgb(219, 219, 219) 93%,
+      rgb(219, 219, 219) 98%,
+      rgb(253, 253, 253) 98%,
+      rgb(253, 253, 253) 100%
+    ),
+    linear-gradient(
+      157.5deg,
+      rgb(46, 46, 46) 0%,
+      rgb(46, 46, 46) 22%,
+      rgb(81, 81, 81) 22%,
+      rgb(81, 81, 81) 75%,
+      rgb(115, 115, 115) 75%,
+      rgb(115, 115, 115) 77%,
+      rgb(150, 150, 150) 77%,
+      rgb(150, 150, 150) 82%,
+      rgb(184, 184, 184) 82%,
+      rgb(184, 184, 184) 93%,
+      rgb(219, 219, 219) 93%,
+      rgb(219, 219, 219) 98%,
+      rgb(253, 253, 253) 98%,
+      rgb(253, 253, 253) 100%
+    ),
+    linear-gradient(90deg, rgb(58, 58, 58), rgb(76, 76, 76));
+  background-blend-mode: overlay, overlay, overlay, overlay, normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 350px;
+  height: 600px;
+  box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.2);
+  perspective: 1000px;
+}
+
+.inner-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 100, 0.8), rgba(0, 0, 100, 0.8)),
+    url(background.png);
+  padding: 55px;
+  box-sizing: border-box;
+  backface-visibility: hidden;
+  border-radius: 5px;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+.card h2 {
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.input-box {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #fff;
+  margin: 6px 0;
+  height: 32px;
+  border-radius: 20px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  outline: none;
+  text-align: center;
+  color: #fff;
+}
+
+::placeholder {
+  color: #fff;
+  font-size: 12px;
+}
+
+button {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #fff;
+  margin: 35px 0 10px;
+  height: 32px;
+  font-size: 12px;
+  border-radius: 20px;
+  padding: 0 10px;
+  box-sizing: 12px;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit-btn {
+  position: relative;
+}
+.submit-btn::after {
+  content: "\27a4";
+  color: #333;
+  line-height: 32px;
+  font-size: 17px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  right: -1px;
+  top: -1px;
+}
+
+span {
+  color: #fff;
+  margin-left: 9px;
+  font-size: 15px;
+}
+
+.card a:hover{
+  color: beige;
+}
+
+.card .btn {
+  margin-top: 40px;
+}
+
+.card a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.card h1 {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.card h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: Algerian;
+  color: white;
+}
+
+.head-start{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.header-middle {
+ align-items: center;
+ justify-content: space-between;
+ display: flex;
+ position: sticky;
+ padding-left: 300px;
+ padding-right: 50px;
+}
+.hehe{
+  display: flex;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: azure;
+  padding: 10px;
+  padding-botom: 100px;
+  position: sticky;
+}
+
+.hehe:hover {
+  color: lightblue;
+}
+
+.header-middle button{
+  background-color: yellowgreen;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  margin: 5px 0 10px;
+  margin-left: 100px;
+  justify-content: center;
+  font-size: 12px;
+  border-radius: 20px;
+  box-sizing:9px;
+  height:40px;
+    width:100px;
+}

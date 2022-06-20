@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=n, initial-scale=1.0" />
+    <link rel="stylesheet" href="jd.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="head-start">
+      <img src="img/Pornhub-logo.svg.png" alt="" />
+
+      <div class="header-middle">
+       <div class="hehe">
+      <h5><u>ABOUT US</u></h5>
+    </div>
+
+     <div class="hehe">
+      <h5><u>GET STARTED</u></h5>
+    </div>
+
+    <div class="hehe">
+      <h5><u>TUTORIAL</u></h5>
+    </div>
+
+    <div class="hehe">
+      <h5><u>WATCH FOR FREE</u></h5>
+    </div>
+    <br><br>
+    
+    <button onclick="openLogin()">Login</button>
+
+
+      <br><br>
+    <button onclick="openRegister()">Create account</button>
+    
+    </div>
+    </div>
+      
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <div class="inner-box" id="card">
+          <div class="card-front">
+            <h3>PornHub</h3>
+
+            <h2>Login</h2>
+            <form>
+              <input
+                type="email"
+                class="input-box"
+                placeholder="Your Email Id"
+                required
+              />
+              <input
+                type="password"
+                class="input-box"
+                placeholder="Password"
+                required
+              />
+              <button type="submit" class="submit-btn">Login</button>
+              <input type="checkbox" /><span> Remember Me</span>
+            </form>
+            <button type="button" class="btn" onclick="openRegister()">
+              I'm New Here
+            </button>
+            <a href="">Forgot Password? </a>
+          </div>
+
+
+          <div class="card-back">
+            <h2>Register</h2>
+            <form>
+              <input
+                type="text"
+                class="input-box"
+                placeholder="First Name"
+                required
+              />
+
+              <input
+                type="text"
+                class="input-box"
+                placeholder="Middle Name"
+                required
+              />
+
+              <input
+                type="text"
+                class="input-box"
+                placeholder="Last Name"
+                required
+              />
+
+              <h1>Date & Time</h1>
+              <input
+                type="date"
+                class="input-box"
+                placeholder="Date & Time"
+                required
+              />
+
+              <input
+                type="email"
+                class="input-box"
+                placeholder="Your Email Id"
+                required
+              />
+              <input
+                type="password"
+                class="input-box"
+                placeholder="Password"
+                required
+              />
+              <button type="submit" class="submit-btn">Create Account</button>
+              <input type="checkbox" /><span> Remember Me</span>
+            </form>
+            <button type="button" class="btn" onclick="openLogin()">
+              Already have an Account
+            </button>
+            <a href="">Forgot Password? </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    <script>
+      var card = document.getElementById("card");
+      function openRegister() {
+        card.style.transform = "rotatey(-180deg)";
+      }
+
+      var card = document.getElementById("card");
+      function openLogin() {
+        card.style.transform = "rotatey(0deg)";
+        
+      }
+      
+    </script>
+  </body>
+</html>
